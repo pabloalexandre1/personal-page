@@ -1,0 +1,46 @@
+.carousel-image {
+    max-width: 90%;
+    max-height: 70vh;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px black;
+    padding: 15px;
+    border: 3px dashed #bea562;
+    transition: 0.4s;
+}
+
+.carousel-image:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.carousel-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+.my-btn {
+    margin-top: 25px;
+}
+
+.carousel-p {
+    color: #bea562;
+    font-size: 15px;
+}
+
+#carousel-button {
+    color: #bea562;
+    border: #bea562 1px solid;
+    transition: 0.3s;
+}
+
+#carousel-button:hover {
+    color: #212121;
+    border: #212121 1px solid;
+    background: #bea562;
+    transition: 0.3s;
+}

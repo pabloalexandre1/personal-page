@@ -1,0 +1,30 @@
+.selector-div {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    min-height: 30px;
+    min-width: 30px;
+    background: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 3px;
+    border: solid 2px #bea562;
+}
+
+.selector-div a {
+    margin: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #bea562;
+    transition: 0.2s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#selected {
+    background: #bea562;
+    color: #212121;
+    transition: 0.2s;
+}
